@@ -25,6 +25,8 @@ int main()
     struct Point arr[50];
     if (n == t) {
         cout << "Cannot enter same number."<< endl;
+        system("pause");
+        system("CLS");
         goto START;
     }
     for(int a=0;a<t;++a) {
